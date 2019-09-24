@@ -1,0 +1,7 @@
+* { margin: 0; padding: 0; }
+
+.demo { padding: 10% 0; background-color: #cf4646; text-align: center; }
+
+.demo__title { margin-bottom: 5%; font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", Helvetica, sans-serif; font-size: 80px; color: #fff; }
+
+.demo__button { display: inline-block; padding: 10px 30px; background: #fff; border-radius: 3px; font-size: 15px; color: #cf4646; text-transform: uppercase; text-decoration: none; }

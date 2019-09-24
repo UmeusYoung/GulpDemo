@@ -1,0 +1,136 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, "Microsoft YaHei", "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.428571429;
+}
+
+body.layout {
+  min-width: 1040px;
+}
+
+iframe {
+  border: none;
+}
+
+ol,
+ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+[ng-click] {
+  cursor: pointer;
+}
+
+a {
+  background: transparent;
+  cursor: pointer;
+}
+
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak,
+.ng-hide {
+  display: none !important;
+}
+img {
+  border: 0;
+}
+
+.fa,
+.fab,
+.fal,
+.far,
+.fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.fa-spin {
+  animation: fa-spin 2s infinite linear;
+}
+
+.fa,
+.fal,
+.far,
+.fas {
+  font-family: "Font Awesome 5 Pro";
+}
+
+.fa,
+.fas {
+  font-weight: 900;
+}
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+  width: 5px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(255, 0, 0, 0.5);
+  -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.8);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 0, 0, 0.1);
+}
+/* layui主题*/
+.layui-btn.layui-btn-primary:hover{
+  border-color: #800000;
+}
+.popBox{
+  display: none;
+}
+.pop-body{
+  padding: 10px;
+}
+.txt-red{
+  color: #800000;
+}
+.txt-yellow{
+  color: #d49c15;
+}
+.input-box{
+  position: relative;
+}
+.input-box>img{
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+.input-box>button{
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+}
